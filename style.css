@@ -134,3 +134,16 @@ img{
       color: tomato;
 
   }
+
+  #about{
+      text-align: center;
+font-weight: bolder;
+font-size: 150%;
+      padding-top: 10%;
+  }
+
+  #aboutusclr{
+    background-color: #FDE68A;
+  }
+
+  
