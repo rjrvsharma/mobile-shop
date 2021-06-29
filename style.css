@@ -18,10 +18,11 @@ body{
 }
 
 #nav-list{
-    text-align: center;
+    text-align: left;
     padding: 2rem;
     padding-top: 4rem;
     margin:auto;
+padding-bottom: 0rem;
     
 }
 
@@ -42,7 +43,7 @@ body{
 }
 
 #logo{
-    float: right;
+    float:;
     margin-left: 2rem;
     padding-bottom: 2rem;
 }
@@ -68,3 +69,68 @@ img{
     color: #F9E826;
 }
 
+        
+
+.search {
+    width: 100%;
+    float: right;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: black;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 3px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .wrap{
+    width: 20%;
+    position: absolute;
+    top: 8%;
+    left: 75%;
+    margin-left: -2rem;
+    
+  }
+
+  #right-logo{
+      float:  right;
+      margin:-1.8rem;
+      margin-right: 1%;
+  }
+
+  #buy{
+      border:1px solid #3B82F6;
+      border-radius: 5px;
+      padding: 10px 30px 10px 30px; 
+      color: #3B82F6; ;
+      float: right;
+      margin-top: 20%;
+      margin-right: 10%;
+      font-weight: bold;
+  }
+
+  #buy:hover{
+      color: tomato;
+
+  }
