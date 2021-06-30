@@ -43,13 +43,13 @@ padding-bottom: 0rem;
 }
 
 #logo{
-    float:;
+
     margin-left: 2rem;
     padding-bottom: 2rem;
 }
 
 #logo-style{
-    padding-right: 2rem;
+    padding-right: 3rem;
    
 
 }
@@ -107,7 +107,7 @@ img{
   .wrap{
     width: 20%;
     position: absolute;
-    top: 8%;
+    top: 10%;
     left: 75%;
     margin-left: -2rem;
     
@@ -115,7 +115,7 @@ img{
 
   #right-logo{
       float:  right;
-      margin:-1.8rem;
+      margin:-2.8rem;
       margin-right: 1%;
   }
 
